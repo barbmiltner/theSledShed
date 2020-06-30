@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+header{
+    background-color: hsl(198, 79%, 63%);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+header img{
+    max-width: 25%;
+    margin: 0 auto;
+}
+
+h1, h2{
+    font-family: "Architects Daughter", cursive;
+    margin: 40px 0 10px;
+}
+
+h1{
+    font-size: 50px;
+    color: #54beeb;
+}
+
+h2{
+    font-size: 35px;
+    color: #03734a;
+}
+
+header h1{
+    color: #f2f2f2;
+    font-size: 50px;
+}
+
+header img{
+    border-radius: 10px;
+    width: 300px;
+    border: 2px solid #262626
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+main img{
+    max-width: 100%;
+    
+}
+
+a{
+    color: 54beeb;
+}
+
+/* hover psuedoclass */
+a:hover{
+    color: f2f2f2;
+    background-color: 03734a;
+}
+
+footer{
+    background-color: hsl(198, 79%, 63%);
+    text-align: center;
+    color: f2f2f2;
+    padding: 50px;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    color:f2f2f2;
+}
+footer a:hover{
+    opacity: .5;
+    background-color:transparent;
+}
